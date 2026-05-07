@@ -36,3 +36,26 @@ width:260px;
 border-radius:12px;
 box-shadow:0 0 15px #00ff88;
 }
+img{
+width:260px;
+border-radius:12px;
+
+box-shadow:0 0 15px #00ff88;
+
+transition:
+transform 0.3s,
+box-shadow 0.3s,
+filter 0.3s;
+}
+
+img:hover{
+
+transform:scale(1.06);
+
+box-shadow:
+0 0 20px #00ff88,
+0 0 40px rgba(0,255,136,0.7);
+
+filter:brightness(1.1);
+
+}

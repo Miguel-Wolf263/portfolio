@@ -52,3 +52,26 @@ box-shadow:0 0 30px red;
 .atividade{
 margin:40px;
 }
+img{
+width:260px;
+border-radius:12px;
+
+box-shadow:0 0 15px red;
+
+transition:
+transform 0.3s,
+box-shadow 0.3s,
+filter 0.3s;
+}
+
+img:hover{
+
+transform:scale(1.06);
+
+box-shadow:
+0 0 20px red,
+0 0 40px rgba(255,0,0,0.7);
+
+filter:brightness(1.1);
+
+}

@@ -30,3 +30,26 @@ border-bottom:2px solid #a855f7;
 box-shadow:0 0 15px #a855f7;
 text-align:center;
 }
+img{
+width:260px;
+border-radius:12px;
+
+box-shadow:0 0 15px #a855f7;
+
+transition:
+transform 0.3s,
+box-shadow 0.3s,
+filter 0.3s;
+}
+
+img:hover{
+
+transform:scale(1.06);
+
+box-shadow:
+0 0 20px #a855f7,
+0 0 40px rgba(168,85,247,0.7);
+
+filter:brightness(1.1);
+
+}
