@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f5ead7;
+    background: linear-gradient(135deg, #1c120c, #3a1f12, #5a3018);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        circle,
+        rgba(224, 126, 55, 0.15),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: #24150d;
+    border-bottom: 2px solid #c66a2b;
+    box-shadow: 0 0 20px rgba(198, 106, 43, 0.5);
+}
+
+header h1 {
+    margin-bottom: 20px;
+    color: #f0a15b;
+}
+
+.voltar {
+    color: #f5ead7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    color: #e08a45;
+    text-shadow: 0 0 10px #c66a2b;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #24150d;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(198, 106, 43, 0.3);
+}
+
+h2 {
+    color: #e08a45;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.atividade {
+    background: #2f1b10;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border-left: 4px solid #c66a2b;
+    box-shadow: 0 0 18px rgba(198, 106, 43, 0.2);
+}
+
+.atividade h3 {
+    color: #f0a15b;
+}
+
+.atividade p {
+    line-height: 1.6;
+}
+
+.atividade ul {
+    line-height: 1.7;
+}
+
+
+/* TAMANHO DAS IMAGENS */
+
+.imagem-atividade {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(224, 138, 69, 0.4);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imagem-atividade:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 30px #e08a45;
+}
+
+
+footer {
+    background: #24150d;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #c66a2b;
+    box-shadow: 0 0 15px rgba(198, 106, 43, 0.5);
+}
+
+footer p {
+    color: #d8c2a8;
+    font-size: 14px;
+}
