@@ -1,0 +1,77 @@
+body{
+margin:0;
+font-family:Arial;
+color:white;
+background: radial-gradient(circle at center, #1a0000 0%, #0f0f0f 70%);
+}
+
+/* brilho lateral */
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(90deg, rgba(255,0,0,0.15), transparent, rgba(255,0,0,0.15));
+pointer-events:none;
+}
+
+/* caixa central */
+section{
+max-width:900px;
+margin:40px auto;
+background:#111;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 25px rgba(255,0,0,0.3);
+}
+
+/* header */
+header{
+background:#111;
+padding:20px;
+border-bottom:2px solid red;
+box-shadow:0 0 15px red;
+text-align:center;
+}
+
+/* imagem */
+img{
+width:260px;
+border-radius:12px;
+box-shadow:0 0 15px red;
+transition:0.3s;
+}
+
+img:hover{
+transform:scale(1.05);
+box-shadow:0 0 30px red;
+}
+
+.atividade{
+margin:40px;
+}
+img{
+width:260px;
+border-radius:12px;
+
+box-shadow:0 0 15px red;
+
+transition:
+transform 0.3s,
+box-shadow 0.3s,
+filter 0.3s;
+}
+
+img:hover{
+
+transform:scale(1.06);
+
+box-shadow:
+0 0 20px red,
+0 0 40px rgba(255,0,0,0.7);
+
+filter:brightness(1.1);
+
+}
